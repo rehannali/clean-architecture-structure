@@ -19,6 +19,7 @@ class CleanArchitecture:
 
         dir_list.append("{}/domain/entities".format(base_dir))
         dir_list.append("{}/domain/repositories".format(base_dir))
+        dir_list.append("{}/domain/usecases".format(base_dir))
 
         dir_list.append("{}/presentation/bloc".format(base_dir))
         dir_list.append("{}/presentation/pages".format(base_dir))
@@ -32,7 +33,6 @@ class CleanArchitecture:
             dir_list.append("{}/domain/entities".format(test_dir))
             dir_list.append("{}/domain/repositories".format(test_dir))
             dir_list.append("{}/domain/usecases".format(test_dir))
-            dir_list.append("{}/domain/usecases".format(base_dir))
 
             dir_list.append("{}/presentation/bloc".format(test_dir))
             dir_list.append("{}/presentation/pages".format(test_dir))
